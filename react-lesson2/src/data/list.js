@@ -1,4 +1,4 @@
-const data = [
+export const list = [
     {
       "userId": 1,
       "id": 1,
@@ -1200,4 +1200,3 @@ const data = [
       "completed": false
     }
   ];
-  export default data;
