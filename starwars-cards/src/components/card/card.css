@@ -48,7 +48,18 @@ img{
     float: right;
 }
 .link{
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color:#fc0000;
+    width: 33%;
+    border-radius: 5px;
+}
+
+.link a{
+    text-align: center;
+    width: 100%;
+    color:aquamarine;
+    text-decoration: none;
 }
