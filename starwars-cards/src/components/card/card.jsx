@@ -8,13 +8,13 @@ import { Link } from "./link/link";
 
 
 export const Card = function({info}){
-    const {name} = info;
+    const {name, url} = info;
     return (
         <div className="card">
             <Title name={name}></Title>
             <Hero hero={info}></Hero>
             <Stats stats={info}></Stats>
-            <Link></Link>
+            <Link link={url}></Link>
         </div>
     )
 }

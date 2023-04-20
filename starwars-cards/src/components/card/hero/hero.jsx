@@ -1,5 +1,4 @@
 import React from "react";
-import obiwan from "../../img/luk.png"
 
 
 export const Hero = function({hero}){
