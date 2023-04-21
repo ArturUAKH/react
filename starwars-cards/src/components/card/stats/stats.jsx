@@ -1,14 +1,8 @@
 import React from "react";
 
 
-export const Stats = function({stats}){
-    const {height,
-         mass,
-         hair_color,
-         skin_color,
-         gender,
-         birth_year,
-         eye_color} = stats;
+export const Stats = function({birth_year, height, mass, skin_color, gender, eye_color, hair_color}){
+
     return (
         <>
         <div className="stats">

@@ -13,10 +13,9 @@ export const Card = function({info}){
         <div className="card">
             <Title name={name}></Title>
             <Hero hero={img}></Hero>
-            <Stats stats={info}></Stats>
+            <Stats {...info}></Stats>
             <Link link={url}></Link>
         </div>
     )
 }
 
-// export default Card;

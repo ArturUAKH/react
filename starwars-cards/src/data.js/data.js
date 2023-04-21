@@ -134,3 +134,5 @@ export const list = [
         "url": "https://swapi.dev/api/people/10/",
     },
 ];
+
+console.log(...list);

@@ -1,7 +1,7 @@
 import React from "react";
-import { Card } from "../card/card";
+import { Card } from "../components/card/card";
 import "./app.css"
-import {list} from "../../data.js/data"
+import {list} from "../data.js/data"
 
 
 function App (){
