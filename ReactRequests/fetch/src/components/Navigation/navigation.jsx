@@ -1,7 +1,12 @@
+import { useState } from "react";
+import req from "../../Req";
 import "./navigation.css";
 function Navigation() {
 	let url = "https://fakestoreapi.com/products";
-	function showStore() {}
+	let [storeData, setStoreData] = useState();
+	function showStore() {
+		req(url).then((data) => setStoreData(data));
+	}
 	return (
 		<>
 			<nav>
@@ -20,6 +25,13 @@ function Navigation() {
 					<li>Планети</li>
 				</ul>
 			</nav>
+			<section>
+				{Array.isArray(storeData)
+					? storeData.map((el) => {
+							return <div>{el.title}</div>;
+					  })
+					: "error"}
+			</section>
 		</>
 	);
 }

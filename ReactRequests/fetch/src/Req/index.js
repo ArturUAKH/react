@@ -3,4 +3,4 @@ const req = async (url) => {
 	const data = await req2.json();
 	return data;
 };
-export { req };
+export default req;
