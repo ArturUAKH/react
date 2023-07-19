@@ -1,0 +1,13 @@
+# Игнорировать папку node_modules
+node_modules/
+test.js
+
+# Игнорировать временные файлы и папки
+*~
+.DS_Store
+Thumbs.db
+
+# Игнорировать файлы конфигурации IDE
+.idea/
+.vscode/
+#ИИ
